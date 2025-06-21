@@ -35,6 +35,9 @@ sections:
         gradient_type: Solid
         color: rgba(0, 0, 0, 0.25)
       vertical_alignment: Top
+  - _bookshop_name: cloudcannon/structural/spacer
+    style:
+      height: 120
   - _bookshop_name: cloudcannon/sections/two-columns
     content:
       left_column:
@@ -168,9 +171,6 @@ sections:
       borders: false
       custom_background_color: true
       background_color: '#f5f5f5'
-  - _bookshop_name: cloudcannon/structural/spacer
-    style:
-      height: 120
   - _bookshop_name: cloudcannon/sections/custom
     section_name: My section
     include_background_color: true
