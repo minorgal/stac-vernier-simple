@@ -35,9 +35,6 @@ sections:
         gradient_type: Solid
         color: rgba(0, 0, 0, 0.25)
       vertical_alignment: Top
-  - _bookshop_name: cloudcannon/structural/spacer
-    style:
-      height: 120
   - _bookshop_name: cloudcannon/sections/two-columns
     content:
       left_column:
@@ -71,30 +68,30 @@ sections:
             - _bookshop_name: cloudcannon/simple/paragraph
               content:
                 text: >-
-                  At STAC, we collaborate with educators and institutions to
+                  At **STAC**, we collaborate with educators and institutions to
                   design, implement, and refine assessment systems that are both
                   meaningful and actionable. Our comprehensive support spans the
                   entire assessment lifecycle from initial development to data
                   analysis and continuous improvement.
 
 
-                  Our services include:
+                  *Our services include:*
 
 
-                  * Assessment Design & Development: Crafting assessments
+                  * **Assessment Design & Development:** Crafting assessments
                   aligned with the Next Generation Science Standards (NGSS) that
                   promote higher-order thinking and real-world application.<br>
 
-                  * Review & Validation: Ensuring assessments are equitable,
+                  * **Review & Validation:** Ensuring assessments are equitable,
                   reliable, and effectively measure intended learning
                   outcomes.<br>
 
-                  * Data Analysis & Interpretation: Providing tools and training
-                  to help educators analyze assessment data, identify learning
-                  trends, and inform instructional decisions.<br>
+                  * **Data Analysis & Interpretation:** Providing tools and
+                  training to help educators analyze assessment data, identify
+                  learning trends, and inform instructional decisions.<br>
 
-                  * Professional Learning: Offering workshops and coaching to
-                  build educators’ capacity in utilizing assessment data to
+                  * **Professional Learning:** Offering workshops and coaching
+                  to build educators’ capacity in utilizing assessment data to
                   enhance teaching and learning.
 
 
