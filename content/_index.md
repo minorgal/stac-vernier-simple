@@ -15,12 +15,17 @@ sections:
   - _bookshop_name: cloudcannon/sections/hero-cta
     content:
       logo:
-        path: /uploads/share-logo.svg
-        alt: Share logo
+        path: /uploads/stac-logo-for-email.jpg
+        alt: STAC logo
       blocks:
         - _bookshop_name: cloudcannon/simple/headline
           content:
-            text: Forget about the bill and live in the moment.
+            text: >-
+              The Science & Technology Advancement Center (STAC), is a nonprofit
+              organization that works with states, districts, and companies to
+              design, develop and implement high quality science programs. We
+              focus on integrating new and emerging technologies in classroom
+              settings to support 3-dimensional learning. 
           style:
             heading_level: h1
             text_color: Primary
@@ -439,5 +444,4 @@ sections:
   - _bookshop_name: cloudcannon/structural/spacer
     style:
       height: 200
-
 ---
