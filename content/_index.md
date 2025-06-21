@@ -27,7 +27,7 @@ sections:
 
               &nbsp;
     style:
-      content_width: Medium
+      content_width: Small
       content_alignment: Center
       include_background_color: false
       background_color: '#f0f0f0'
