@@ -18,12 +18,11 @@ sections:
         - _bookshop_name: cloudcannon/simple/paragraph
           content:
             text: >-
-              Paragraph textThe ***Science & Technology Advancement Center
-              (STAC)***, is a nonprofit organization that works with states,
-              districts, and companies to design, develop and implement high
-              quality science programs. We focus on integrating new and emerging
-              technologies in classroom settings to support 3-dimensional
-              learning.
+              The ***Science & Technology Advancement Center (STAC)***, is a
+              nonprofit organization that works with states, districts, and
+              companies to design, develop and implement high quality science
+              programs. We focus on integrating new and emerging technologies in
+              classroom settings to support 3-dimensional learning.
 
 
               &nbsp;
