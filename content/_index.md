@@ -23,9 +23,6 @@ sections:
               companies to design, develop and implement high quality science
               programs. We focus on integrating new and emerging technologies in
               classroom settings to support 3-dimensional learning.
-
-
-              &nbsp;
     style:
       content_width: Large
       content_alignment: Center
