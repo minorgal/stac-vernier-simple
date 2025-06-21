@@ -78,6 +78,26 @@ sections:
                   analysis and continuous improvement.
 
 
+                  Our services include:
+
+
+                  * Assessment Design & Development: Crafting assessments
+                  aligned with the Next Generation Science Standards (NGSS) that
+                  promote higher-order thinking and real-world application.<br>
+
+                  * Review & Validation: Ensuring assessments are equitable,
+                  reliable, and effectively measure intended learning
+                  outcomes.<br>
+
+                  * Data Analysis & Interpretation: Providing tools and training
+                  to help educators analyze assessment data, identify learning
+                  trends, and inform instructional decisions.<br>
+
+                  * Professional Learning: Offering workshops and coaching to
+                  build educators’ capacity in utilizing assessment data to
+                  enhance teaching and learning.
+
+
                   Our approach is grounded in research and best practices,
                   aiming to create assessment systems that support teaching and
                   foster student growth.
@@ -90,7 +110,7 @@ sections:
                 heading_level: h4
                 text_color: Primary
     style:
-      gap: 40
+      gap: 5
   - _bookshop_name: cloudcannon/sections/faq
     content:
       heading: Our Assessment Services Include
