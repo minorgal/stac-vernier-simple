@@ -29,15 +29,6 @@ sections:
           style:
             heading_level: h1
             text_color: Primary
-        - _bookshop_name: cloudcannon/simple/button
-          content:
-            text: Download the app
-            url: /
-            open_in_new_tab: false
-          style:
-            type: Primary
-            size: Responsive
-            disabled: false
     style:
       content_width: Medium
       content_alignment: Center
