@@ -27,7 +27,7 @@ sections:
 
               &nbsp;
     style:
-      content_width: Small
+      content_width: Large
       content_alignment: Center
       include_background_color: false
       background_color: '#f0f0f0'
@@ -35,7 +35,7 @@ sections:
       background_image_path: /uploads/hero.png
       include_background_overlay: false
       background_overlay:
-        gradient_type: Linear
+        gradient_type: Solid
         color: rgba(0, 0, 0, 0.25)
       vertical_alignment: Top
   - _bookshop_name: cloudcannon/sections/two-columns
