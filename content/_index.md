@@ -42,16 +42,85 @@ sections:
   - _bookshop_name: cloudcannon/structural/spacer
     style:
       height: 90
-  - _bookshop_name: cloudcannon/sections/hero-image
-    content:
-      path: /uploads/hero.png
-      alt: Share app
-    style:
-      content_width: Large
-      content_alignment: Center
   - _bookshop_name: cloudcannon/structural/spacer
     style:
       height: 200
+  - _bookshop_name: cloudcannon/sections/two-columns
+    content:
+      left_column:
+        style:
+          content_alignment: Left
+          vertical_alignment: Top
+          custom_background_color: true
+          background_color: '#00326e'
+        content:
+          blocks:
+            - _bookshop_name: cloudcannon/simple/headline
+              content:
+                text: 'Assessment Support '
+              style:
+                heading_level: h3
+                text_color: Secondary
+            - _bookshop_name: cloudcannon/image
+              content:
+                path: /uploads/teacher-assessment.png
+                alt: ''
+              style:
+                shadow: true
+            - _bookshop_name: cloudcannon/simple/headline
+              content:
+                text: >-
+                  Partner with us to build assessment systems that drive equity,
+                  insight, and instructional impact.
+              style:
+                heading_level: h4
+                text_color: Secondary
+      right_column:
+        style:
+          content_alignment: Left
+          vertical_alignment: Top
+          custom_background_color: false
+          background_color: '#f5f5f5'
+        content:
+          blocks:
+            - _bookshop_name: cloudcannon/simple/paragraph
+              content:
+                text: >-
+                  At STAC, we collaborate with educators and institutions to
+                  design, implement, and refine assessment systems that are both
+                  meaningful and actionable. Our comprehensive support spans the
+                  entire assessment lifecycle from initial development to data
+                  analysis and continuous improvement.
+
+
+                  Our services include:
+
+
+                  * Assessment Design & Development: Crafting assessments
+                  aligned with the Next Generation Science Standards (NGSS) that
+                  promote higher-order thinking and real-world application.<br>
+
+                  * Review & Validation: Ensuring assessments are equitable,
+                  reliable, and effectively measure intended learning
+                  outcomes.<br>
+
+                  * Data Analysis & Interpretation: Providing tools and training
+                  to help educators analyze assessment data, identify learning
+                  trends, and inform instructional decisions.<br>
+
+                  * Professional Learning: Offering workshops and coaching to
+                  build educators’ capacity in utilizing assessment data to
+                  enhance teaching and learning.<br>
+
+
+                  Our approach is grounded in research and best practices,
+                  aiming to create assessment systems that support teaching and
+                  foster student growth.
+
+
+                  &nbsp;
+    style:
+      gap: 40
   - _bookshop_name: cloudcannon/sections/logo-ticker
     content:
       logos:
