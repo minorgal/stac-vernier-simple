@@ -38,12 +38,6 @@ sections:
         gradient_type: Linear
         color: rgba(0, 0, 0, 0.25)
       vertical_alignment: Top
-  - _bookshop_name: cloudcannon/structural/spacer
-    style:
-      height: 90
-  - _bookshop_name: cloudcannon/structural/spacer
-    style:
-      height: 200
   - _bookshop_name: cloudcannon/sections/two-columns
     content:
       left_column:
