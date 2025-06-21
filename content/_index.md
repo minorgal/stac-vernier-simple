@@ -27,7 +27,7 @@ sections:
               focus on integrating new and emerging technologies in classroom
               settings to support 3-dimensional learning. 
           style:
-            heading_level: h1
+            heading_level: h4
             text_color: Primary
     style:
       content_width: Medium
