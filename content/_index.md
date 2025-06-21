@@ -15,7 +15,7 @@ sections:
   - _bookshop_name: cloudcannon/sections/hero-cta
     content:
       logo:
-        path: /uploads/stac-logo.svg
+        path: /uploads/stac-logo.webp
         alt: STAC logo
       blocks:
         - _bookshop_name: cloudcannon/simple/headline
