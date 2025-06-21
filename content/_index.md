@@ -60,14 +60,6 @@ sections:
                 alt: ''
               style:
                 shadow: true
-            - _bookshop_name: cloudcannon/simple/headline
-              content:
-                text: >-
-                  Partner with us to build assessment systems that drive equity,
-                  insight, and instructional impact.
-              style:
-                heading_level: h4
-                text_color: Secondary
       right_column:
         style:
           content_alignment: Left
@@ -86,108 +78,82 @@ sections:
                   analysis and continuous improvement.
 
 
-                  Our services include:
-
-
-                  * Assessment Design & Development: Crafting assessments
-                  aligned with the Next Generation Science Standards (NGSS) that
-                  promote higher-order thinking and real-world application.<br>
-
-                  * Review & Validation: Ensuring assessments are equitable,
-                  reliable, and effectively measure intended learning
-                  outcomes.<br>
-
-                  * Data Analysis & Interpretation: Providing tools and training
-                  to help educators analyze assessment data, identify learning
-                  trends, and inform instructional decisions.<br>
-
-                  * Professional Learning: Offering workshops and coaching to
-                  build educators’ capacity in utilizing assessment data to
-                  enhance teaching and learning.<br>
-
-
                   Our approach is grounded in research and best practices,
                   aiming to create assessment systems that support teaching and
                   foster student growth.
-
-
-                  &nbsp;
+            - _bookshop_name: cloudcannon/simple/headline
+              content:
+                text: >-
+                  Partner with us to build assessment systems that drive equity,
+                  insight, and instructional impact.
+              style:
+                heading_level: h4
+                text_color: Primary
     style:
       gap: 40
-  - _bookshop_name: cloudcannon/sections/logo-ticker
+  - _bookshop_name: cloudcannon/sections/faq
     content:
-      logos:
-        - image: /uploads/fordes.png
-          alt: Fordes logo
-          link: /
-        - image: /uploads/fifetracker.png
-          alt: Fifetracker logo
-          link: /
-        - image: /uploads/ccc.svg
-          alt: CCC logo
-          link: /
-        - image: /uploads/thyme.svg
-          alt: Thyme logo
-          link: /
+      heading: Our Assessment Services Include
+      items:
+        - _bookshop_name: cloudcannon/accordion
+          content:
+            heading: Assessment Design & Development
+            text:
+              _bookshop_name: cloudcannon/simple/paragraph
+              content:
+                text: >-
+                  Crafting assessments aligned with the Next Generation Science
+                  Standards (NGSS) that promote higher-order thinking and
+                  real-world application.
+          style:
+            content_width: Full
+            content_alignment: Center
+        - _bookshop_name: cloudcannon/accordion
+          content:
+            heading: Review & Validation
+            text:
+              _bookshop_name: cloudcannon/simple/paragraph
+              content:
+                text: >-
+                  Ensuring assessments are equitable, reliable, and effectively
+                  measure intended learning outcomes.
+          style:
+            content_width: Full
+            content_alignment: Center
+        - _bookshop_name: cloudcannon/accordion
+          content:
+            heading: Data Analysis & Interpretation
+            text:
+              _bookshop_name: cloudcannon/simple/paragraph
+              content:
+                text: >-
+                  Providing tools and training to help educators analyze
+                  assessment data, identify learning trends, and inform
+                  instructional decisions.
+          style:
+            content_width: Full
+            content_alignment: Center
+        - _bookshop_name: cloudcannon/accordion
+          content:
+            heading: Professional Learning
+            text:
+              _bookshop_name: cloudcannon/simple/paragraph
+              content:
+                text: >-
+                  Offering workshops and coaching to build educators’ capacity
+                  in utilizing assessment data to enhance teaching and learning.
+          style:
+            content_width: Full
+            content_alignment: Center
     style:
-      height: 45
+      content_alignment: Center
+      content_width: Medium
+      borders: false
+      custom_background_color: true
+      background_color: '#f5f5f5'
   - _bookshop_name: cloudcannon/structural/spacer
     style:
       height: 120
-  - _bookshop_name: cloudcannon/sections/two-columns
-    content:
-      left_column:
-        style:
-          content_alignment: Left
-          vertical_alignment: Top
-          custom_background_color: true
-          background_color: '#f5f5f5'
-        content:
-          blocks:
-            - _bookshop_name: cloudcannon/simple/headline
-              content:
-                text: Track the balance
-              style:
-                heading_level: h3
-                text_color: Primary
-            - _bookshop_name: cloudcannon/simple/paragraph
-              content:
-                text: >-
-                  Nullam eleifend tortor nec diam eleifend, sed fermentum ex
-                  maximus. Nulla nec elit ex.
-            - _bookshop_name: cloudcannon/image
-              content:
-                path: /uploads/owings.png
-                alt:
-              style:
-                shadow: true
-      right_column:
-        style:
-          content_alignment: Left
-          vertical_alignment: Top
-          custom_background_color: true
-          background_color: '#f5f5f5'
-        content:
-          blocks:
-            - _bookshop_name: cloudcannon/simple/headline
-              content:
-                text: Share the bill
-              style:
-                heading_level: h3
-                text_color: Primary
-            - _bookshop_name: cloudcannon/simple/paragraph
-              content:
-                text: >-
-                  Duis faucibus metus nec est finibus facilisis. Integer
-                  sagittis dolor ut vehicula gravida.
-            - _bookshop_name: cloudcannon/image
-              content:
-                path: /uploads/payment.png
-                alt:
-              style:
-                shadow: true
-    style:
-      gap: 40
   - _bookshop_name: cloudcannon/sections/custom
     section_name: My section
     include_background_color: true
@@ -330,93 +296,19 @@ sections:
                 alt: Screenshot of the Share app overview page
               style:
                 shadow: false
+            - _bookshop_name: cloudcannon/structural/content_blocks
+              content:
+                blocks: []
+              style:
+                flow: Vertical
+                vertical_alignment: Middle
+                custom_background_color: false
+                background_color: '#ffffff'
     style:
       gap: 160
   - _bookshop_name: cloudcannon/structural/spacer
     style:
       height: 160
-  - _bookshop_name: cloudcannon/sections/faq
-    content:
-      heading: Frequently asked questions
-      items:
-        - _bookshop_name: cloudcannon/accordion
-          content:
-            heading: What is a group?
-            text:
-              _bookshop_name: cloudcannon/simple/paragraph
-              content:
-                text: >-
-                  Duis accumsan mauris dui, a eleifend massa maximus eu. Aliquam
-                  a rhoncus dolor. In enim lectus, cursus sed auctor gravida,
-                  gravida nec justo. Quisque lacinia, lectus eget efficitur
-                  commodo, magna nulla efficitur elit, eget lacinia ligula quam
-                  at ligula. Orci varius natoque penatibus et magnis dis
-                  parturient montes, nascetur ridiculus mus. Mauris sed tempus
-                  odio, vel malesuada enim. Donec aliquet at lectus eget
-                  accumsan
-          style:
-            content_width: Full
-            content_alignment: Center
-        - _bookshop_name: cloudcannon/accordion
-          content:
-            heading: Who can use Share?
-            text:
-              _bookshop_name: cloudcannon/simple/paragraph
-              content:
-                text: >-
-                  Duis accumsan mauris dui, a eleifend massa maximus eu. Aliquam
-                  a rhoncus dolor. In enim lectus, cursus sed auctor gravida,
-                  gravida nec justo. Quisque lacinia, lectus eget efficitur
-                  commodo, magna nulla efficitur elit, eget lacinia ligula quam
-                  at ligula. Orci varius natoque penatibus et magnis dis
-                  parturient montes, nascetur ridiculus mus. Mauris sed tempus
-                  odio, vel malesuada enim. Donec aliquet at lectus eget
-                  accumsan
-          style:
-            content_width: Full
-            content_alignment: Center
-        - _bookshop_name: cloudcannon/accordion
-          content:
-            heading: How do payment integrations work?
-            text:
-              _bookshop_name: cloudcannon/simple/paragraph
-              content:
-                text: >-
-                  Duis accumsan mauris dui, a eleifend massa maximus eu. Aliquam
-                  a rhoncus dolor. In enim lectus, cursus sed auctor gravida,
-                  gravida nec justo. Quisque lacinia, lectus eget efficitur
-                  commodo, magna nulla efficitur elit, eget lacinia ligula quam
-                  at ligula. Orci varius natoque penatibus et magnis dis
-                  parturient montes, nascetur ridiculus mus. Mauris sed tempus
-                  odio, vel malesuada enim. Donec aliquet at lectus eget
-                  accumsan
-          style:
-            content_width: Full
-            content_alignment: Center
-        - _bookshop_name: cloudcannon/accordion
-          content:
-            heading: How do you calculate currency conversions?
-            text:
-              _bookshop_name: cloudcannon/simple/paragraph
-              content:
-                text: >-
-                  Duis accumsan mauris dui, a eleifend massa maximus eu. Aliquam
-                  a rhoncus dolor. In enim lectus, cursus sed auctor gravida,
-                  gravida nec justo. Quisque lacinia, lectus eget efficitur
-                  commodo, magna nulla efficitur elit, eget lacinia ligula quam
-                  at ligula. Orci varius natoque penatibus et magnis dis
-                  parturient montes, nascetur ridiculus mus. Mauris sed tempus
-                  odio, vel malesuada enim. Donec aliquet at lectus eget
-                  accumsan
-          style:
-            content_width: Full
-            content_alignment: Center
-    style:
-      content_alignment: Center
-      content_width: Medium
-      borders: false
-      custom_background_color: true
-      background_color: '#f5f5f5'
   - _bookshop_name: cloudcannon/structural/spacer
     style:
       height: 200
