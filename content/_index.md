@@ -36,43 +36,32 @@ sections:
         gradient_type: Linear
         color: rgba(0, 0, 0, 0.25)
       vertical_alignment: Middle
-  - _bookshop_name: cloudcannon/sections/hero-cta
-    content:
-      logo:
-        path:
-        alt:
-      blocks:
-        - _bookshop_name: cloudcannon/simple/headline
-          content:
-            text: >-
-              The Science & Technology Advancement Center (STAC), is a nonprofit
-              organization that works with states, districts, and companies to
-              design, develop and implement high quality science programs. We
-              focus on integrating new and emerging technologies in classroom
-              settings to support 3-dimensional learning. 
-          style:
-            heading_level: h4
-            text_color: Primary
-        - _bookshop_name: cloudcannon/simple/button
-          content:
-            text: Button
-            url: /
-            open_in_new_tab: false
-          style:
-            type: Primary
-            size: Responsive
-            disabled: false
-    style:
-      content_width: Large
-      content_alignment: Left
-      include_background_color: false
-      background_color: '#F0F0F0'
-      include_background_image: false
-      background_image_path:
-      include_background_overlay: false
-      background_overlay:
-        gradient_type: Linear
-        color: rgba(0, 0, 0, 0.25)
+  - _bookshop_name: cloudcannon/sections/custom
+    section_name: My section
+    include_background_color: false
+    background_color: '#f0f0f0'
+    include_background_image: false
+    background_image_path:
+    content_blocks:
+      _bookshop_name: cloudcannon/structural/content_blocks
+      content:
+        blocks:
+          - _bookshop_name: cloudcannon/simple/paragraph
+            content:
+              text: >-
+                The ***Science & Technology Advancement Center (STAC)***, is a
+                nonprofit organization that works with states, districts, and
+                companies to design, develop and implement high quality science
+                programs. We focus on integrating new and emerging technologies
+                in classroom settings to support 3-dimensional learning.
+
+
+                &nbsp;
+      style:
+        flow: Vertical
+        vertical_alignment: Middle
+        custom_background_color: false
+        background_color: '#ffffff'
   - _bookshop_name: cloudcannon/sections/one-column
     content:
       blocks: []
