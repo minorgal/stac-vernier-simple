@@ -15,7 +15,7 @@ sections:
   - _bookshop_name: cloudcannon/sections/hero-cta
     content:
       logo:
-        path: /uploads/stac-logo-for-email.jpg
+        path: /uploads/stac-logo.svg
         alt: STAC logo
       blocks:
         - _bookshop_name: cloudcannon/simple/headline
@@ -41,6 +41,14 @@ sections:
         gradient_type: Linear
         color: rgba(0, 0, 0, 0.25)
       vertical_alignment: Middle
+  - _bookshop_name: cloudcannon/sections/one-column
+    content:
+      blocks: []
+    style:
+      custom_background_color: false
+      background_color: '#f5f5f5'
+      content_alignment: Center
+      content_width: Large
   - _bookshop_name: cloudcannon/sections/hero-image
     content:
       path: /uploads/hero.png
