@@ -108,6 +108,72 @@ sections:
                 text_color: Primary
     style:
       gap: 5
+  - _bookshop_name: cloudcannon/sections/two-columns
+    content:
+      left_column:
+        style:
+          content_alignment: Left
+          vertical_alignment: Top
+          custom_background_color: false
+          background_color: '#00326e'
+        content:
+          blocks:
+            - _bookshop_name: cloudcannon/simple/paragraph
+              content:
+                text: >-
+                  At **STAC**, we believe that technology alone doesn’t
+                  transform science education, teachers do. Our professional
+                  development programs are designed to empower educators with
+                  the tools, strategies, and confidence they need to bring
+                  emerging technologies into the classroom in meaningful ways.
+
+
+                  Grounded in research and informed by classroom realities, our
+                  sessions go beyond tool training. We support teachers in
+                  aligning technology use with the NGSS, fostering inclusive
+                  learning environments, and building students’ data literacy
+                  and critical thinking. Our recent work includes hands-on
+                  training with Vernier probeware and customized support for
+                  integrating AI into classroom assessment.
+
+
+                  **STAC’s** approach is collaborative, practical, and scalable.
+                  Whether you’re a district leader looking to strengthen your
+                  science instruction or an edtech partner seeking thoughtful
+                  implementation strategies, we work alongside you to create
+                  sustainable professional learning experiences that make an
+                  impact.
+            - _bookshop_name: cloudcannon/simple/headline
+              content:
+                text: >-
+                  Let’s work together to equip educators to lead the future of
+                  science learning. Contact us to explore a customized
+                  professional development plan for your team.
+              style:
+                heading_level: h4
+                text_color: Primary
+      right_column:
+        style:
+          content_alignment: Center
+          vertical_alignment: Top
+          custom_background_color: true
+          background_color: '#00326e'
+        content:
+          blocks:
+            - _bookshop_name: cloudcannon/simple/headline
+              content:
+                text: Professional Learning
+              style:
+                heading_level: h3
+                text_color: Secondary
+            - _bookshop_name: cloudcannon/image
+              content:
+                path: /uploads/professional-learning.png
+                alt: Professional Learning
+              style:
+                shadow: false
+    style:
+      gap: 5
   - _bookshop_name: cloudcannon/sections/faq
     content:
       heading: Our Assessment Services Include
