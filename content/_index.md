@@ -493,9 +493,15 @@ sections:
           blocks:
             - _bookshop_name: cloudcannon/simple/headline
               content:
-                text: 'Chris Lazzaro Executive Director '
+                text: 'Chris Lazzaro '
               style:
                 heading_level: h2
+                text_color: Primary
+            - _bookshop_name: cloudcannon/simple/headline
+              content:
+                text: 'Executive Director '
+              style:
+                heading_level: h4
                 text_color: Primary
             - _bookshop_name: cloudcannon/simple/paragraph
               content:
