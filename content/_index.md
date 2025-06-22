@@ -39,9 +39,9 @@ sections:
     content:
       left_column:
         style:
-          content_alignment: Left
+          content_alignment: Center
           vertical_alignment: Top
-          custom_background_color: true
+          custom_background_color: false
           background_color: '#00326e'
         content:
           blocks:
@@ -49,14 +49,22 @@ sections:
               content:
                 text: 'Assessment Support '
               style:
-                heading_level: h3
-                text_color: Secondary
+                heading_level: h2
+                text_color: Primary
             - _bookshop_name: cloudcannon/image
               content:
-                path: /uploads/teacher-assessment.png
+                path: /uploads/teacher-assessment-1.png
                 alt: ''
               style:
                 shadow: true
+            - _bookshop_name: cloudcannon/simple/headline
+              content:
+                text: >-
+                  Partner with us to build assessment systems that drive equity,
+                  insight, and instructional impact.
+              style:
+                heading_level: h3
+                text_color: Primary
       right_column:
         style:
           content_alignment: Left
@@ -98,14 +106,6 @@ sections:
                   Our approach is grounded in research and best practices,
                   aiming to create assessment systems that support teaching and
                   foster student growth.
-            - _bookshop_name: cloudcannon/simple/headline
-              content:
-                text: >-
-                  Partner with us to build assessment systems that drive equity,
-                  insight, and instructional impact.
-              style:
-                heading_level: h4
-                text_color: Primary
     style:
       gap: 5
   - _bookshop_name: cloudcannon/sections/two-columns
