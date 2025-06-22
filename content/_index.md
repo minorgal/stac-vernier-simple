@@ -439,7 +439,7 @@ sections:
                 text_color: Primary
             - _bookshop_name: cloudcannon/image
               content:
-                path: /uploads/professional-learning-1.png
+                path: /uploads/student-ai.png
                 alt: Professional Learning
               style:
                 shadow: false
