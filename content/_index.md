@@ -174,6 +174,68 @@ sections:
                 text_color: Primary
     style:
       gap: 5
+  - _bookshop_name: cloudcannon/sections/two-columns
+    content:
+      left_column:
+        style:
+          content_alignment: Center
+          vertical_alignment: Top
+          custom_background_color: false
+          background_color: '#00326e'
+        content:
+          blocks:
+            - _bookshop_name: cloudcannon/simple/headline
+              content:
+                text: Research
+              style:
+                heading_level: h2
+                text_color: Primary
+            - _bookshop_name: cloudcannon/image
+              content:
+                path: /uploads/teacher-research.png
+                alt: ''
+              style:
+                shadow: true
+            - _bookshop_name: cloudcannon/simple/headline
+              content:
+                text: >-
+                  Join us in shaping the future of science education through
+                  research. Connect with our team to explore collaborative
+                  opportunities.
+              style:
+                heading_level: h3
+                text_color: Primary
+      right_column:
+        style:
+          content_alignment: Left
+          vertical_alignment: Top
+          custom_background_color: false
+          background_color: '#f5f5f5'
+        content:
+          blocks:
+            - _bookshop_name: cloudcannon/simple/paragraph
+              content:
+                text: >-
+                  At **STAC**, our research explores how emerging technologies
+                  can deepen student learning and transform science classrooms.
+                  In, *Exploring the Data: How Integrating Technology Transforms
+                  Science Classrooms*, we highlights the benefits of using tools
+                  like Vernier probeware to support student sense-making,
+                  inquiry, and real-time data analysis. This work, available on
+                  Vernier’s website, reflects our commitment to evidence-based
+                  practice and equitable access to high-quality science
+                  instruction.
+
+
+                  Looking ahead, STAC is expanding its research efforts to
+                  better understand how AI and other technologies can enhance
+                  classroom assessment, increase engagement, and support
+                  inclusive learning environments. We invite potential partners,
+                  from school districts to edtech organizations, to join us as
+                  we develop innovative solutions grounded in research and
+                  driven by impact.
+    style:
+      gap: 5
   - _bookshop_name: cloudcannon/sections/faq
     content:
       heading: Our Assessment Services Include
