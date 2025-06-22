@@ -143,20 +143,11 @@ sections:
                   implementation strategies, we work alongside you to create
                   sustainable professional learning experiences that make an
                   impact.
-            - _bookshop_name: cloudcannon/simple/headline
-              content:
-                text: >-
-                  Let’s work together to equip educators to lead the future of
-                  science learning. Contact us to explore a customized
-                  professional development plan for your team.
-              style:
-                heading_level: h4
-                text_color: Primary
       right_column:
         style:
           content_alignment: Center
           vertical_alignment: Top
-          custom_background_color: true
+          custom_background_color: false
           background_color: '#00326e'
         content:
           blocks:
@@ -164,14 +155,23 @@ sections:
               content:
                 text: Professional Learning
               style:
-                heading_level: h3
-                text_color: Secondary
+                heading_level: h2
+                text_color: Primary
             - _bookshop_name: cloudcannon/image
               content:
-                path: /uploads/professional-learning.png
+                path: /uploads/professional-learning-1.png
                 alt: Professional Learning
               style:
                 shadow: false
+            - _bookshop_name: cloudcannon/simple/headline
+              content:
+                text: >-
+                  Let’s work together to equip educators to lead the future of
+                  science learning. Contact us to explore a customized
+                  professional development plan for your team.
+              style:
+                heading_level: h3
+                text_color: Primary
     style:
       gap: 5
   - _bookshop_name: cloudcannon/sections/faq
