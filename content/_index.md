@@ -236,6 +236,71 @@ sections:
                   driven by impact.
     style:
       gap: 5
+  - _bookshop_name: cloudcannon/sections/two-columns
+    content:
+      left_column:
+        style:
+          content_alignment: Left
+          vertical_alignment: Top
+          custom_background_color: false
+          background_color: '#00326e'
+        content:
+          blocks:
+            - _bookshop_name: cloudcannon/simple/paragraph
+              content:
+                text: >-
+                  At **STAC**, we believe every student deserves access to
+                  high-quality science education that inspires curiosity, builds
+                  critical thinking skills, and prepares them for the future.
+                  Our commitment to equity is at the heart of everything we do.
+
+
+                  We specialize in supporting inclusive science instruction that
+                  meets the needs of all learners, including students with
+                  disabilities. Our team brings deep expertise in designing and
+                  adapting science experiences that are rigorous, accessible,
+                  and aligned with state standards, empowering educators to
+                  confidently teach in both general and special education
+                  settings.
+
+
+                  Through research-informed strategies, hands-on exemplars, and
+                  professional learning, we help educators remove barriers and
+                  create learning environments where all students can thrive.
+
+
+                  **STAC** is here to help every student succeed in science,
+                  because science is for everyone.
+      right_column:
+        style:
+          content_alignment: Center
+          vertical_alignment: Top
+          custom_background_color: false
+          background_color: '#00326e'
+        content:
+          blocks:
+            - _bookshop_name: cloudcannon/simple/headline
+              content:
+                text: Science Education for All
+              style:
+                heading_level: h2
+                text_color: Primary
+            - _bookshop_name: cloudcannon/image
+              content:
+                path: /uploads/professional-learning-1.png
+                alt: Professional Learning
+              style:
+                shadow: false
+            - _bookshop_name: cloudcannon/simple/headline
+              content:
+                text: >-
+                  Partner with us to build a more inclusive future in science
+                  education, where every student has the opportunity to succeed.
+              style:
+                heading_level: h3
+                text_color: Primary
+    style:
+      gap: 5
   - _bookshop_name: cloudcannon/sections/faq
     content:
       heading: Our Assessment Services Include
