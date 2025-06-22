@@ -227,7 +227,7 @@ sections:
                   instruction.
 
 
-                  Looking ahead, STAC is expanding its research efforts to
+                  Looking ahead, **STAC** is expanding its research efforts to
                   better understand how AI and other technologies can enhance
                   classroom assessment, increase engagement, and support
                   inclusive learning environments. We invite potential partners,
@@ -296,6 +296,158 @@ sections:
                 text: >-
                   Partner with us to build a more inclusive future in science
                   education, where every student has the opportunity to succeed.
+              style:
+                heading_level: h3
+                text_color: Primary
+    style:
+      gap: 5
+  - _bookshop_name: cloudcannon/sections/two-columns
+    content:
+      left_column:
+        style:
+          content_alignment: Center
+          vertical_alignment: Top
+          custom_background_color: false
+          background_color: '#00326e'
+        content:
+          blocks:
+            - _bookshop_name: cloudcannon/simple/headline
+              content:
+                text: Curriculum Development and Review
+              style:
+                heading_level: h2
+                text_color: Primary
+            - _bookshop_name: cloudcannon/image
+              content:
+                path: /uploads/curriculum-review.png
+                alt: ''
+              style:
+                shadow: true
+            - _bookshop_name: cloudcannon/simple/headline
+              content:
+                text: >-
+                  Work with STAC to bring transformative science learning to
+                  life in your classrooms.
+              style:
+                heading_level: h3
+                text_color: Primary
+      right_column:
+        style:
+          content_alignment: Left
+          vertical_alignment: Top
+          custom_background_color: false
+          background_color: '#f5f5f5'
+        content:
+          blocks:
+            - _bookshop_name: cloudcannon/simple/paragraph
+              content:
+                text: >-
+                  At **STAC**, we support schools, districts, and organizations
+                  in creating and refining science curricula that are
+                  three-dimensional, inclusive, and grounded in real-world
+                  relevance. Our curriculum work is designed to foster deep
+                  understanding, promote student agency, and align with the Next
+                  Generation Science Standards (NGSS).
+
+
+                  Whether developing new instructional units or reviewing
+                  existing materials, we ensure that science content is
+                  accessible, engaging, and rigorous for all learners. Our team
+                  brings expertise in universal design, scaffolding for diverse
+                  classrooms, and integrating technology in ways that enhance,
+                  not overwhelm, learning.
+
+
+                  **Our services include:**
+
+
+                  * Collaborative curriculum design aligned to NGSS and local
+                  standards<br>
+
+                  * Review and refinement of existing science programs<br>
+
+                  * Integration of probeware and data tools to support
+                  inquiry-based learning<br>
+
+                  * Customization for special education and inclusive
+                  classrooms<br>
+
+                  * Development of phenomena-driven units and sense-making
+                  strategies<br>
+
+
+                  We partner closely with educators to build curriculum that
+                  works in practice, not just on paper. Let us help you design
+                  science learning experiences that inspire students and equip
+                  them with the skills they need to thrive.
+    style:
+      gap: 5
+  - _bookshop_name: cloudcannon/sections/two-columns
+    content:
+      left_column:
+        style:
+          content_alignment: Left
+          vertical_alignment: Top
+          custom_background_color: false
+          background_color: '#00326e'
+        content:
+          blocks:
+            - _bookshop_name: cloudcannon/simple/paragraph
+              content:
+                text: >-
+                  At **STAC**, we guide schools, districts, and education
+                  agencies in bringing artificial intelligence into teaching and
+                  learning—safely, ethically, and impactfully. Our work centers
+                  on demystifying AI, empowering educators, and making sure
+                  every tool or workflow serves real instructional goals rather
+                  than adding noise. From policy design to hands-on coaching, we
+                  help you harness AI to deepen student understanding, elevate
+                  teacher practice, and advance equity.
+
+
+                  **Our services include:**
+
+
+                  * AI readiness road-mapping & policy development<br>
+
+                  * Professional learning series<br>
+
+                  * Dynamic, performance-based assessment design<br>
+
+                  * Equity, bias, and accessibility audits<br>
+
+                  * Pilot-to-scale implementation support<br>
+
+
+                  We collaborate closely with educators so that AI enriches
+                  instruction rather than replacing it, and so that every
+                  adoption decision is grounded in evidence and classroom
+                  realities.
+      right_column:
+        style:
+          content_alignment: Center
+          vertical_alignment: Top
+          custom_background_color: false
+          background_color: '#00326e'
+        content:
+          blocks:
+            - _bookshop_name: cloudcannon/simple/headline
+              content:
+                text: AI Integration & Classroom Innovation
+              style:
+                heading_level: h2
+                text_color: Primary
+            - _bookshop_name: cloudcannon/image
+              content:
+                path: /uploads/professional-learning-1.png
+                alt: Professional Learning
+              style:
+                shadow: false
+            - _bookshop_name: cloudcannon/simple/headline
+              content:
+                text: >-
+                  Partner with us to harness AI as a catalyst for transformative
+                  teaching, learning, and equitable student success.
               style:
                 heading_level: h3
                 text_color: Primary
