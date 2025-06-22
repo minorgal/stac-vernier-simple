@@ -35,6 +35,20 @@ sections:
         gradient_type: Solid
         color: rgba(0, 0, 0, 0.25)
       vertical_alignment: Top
+  - _bookshop_name: cloudcannon/sections/one-column
+    content:
+      blocks:
+        - _bookshop_name: cloudcannon/simple/headline
+          content:
+            text: What We Do
+          style:
+            heading_level: h1
+            text_color: Primary
+    style:
+      custom_background_color: false
+      background_color: '#f5f5f5'
+      content_alignment: Center
+      content_width: Large
   - _bookshop_name: cloudcannon/sections/two-columns
     content:
       left_column:
@@ -453,260 +467,112 @@ sections:
                 text_color: Primary
     style:
       gap: 5
-  - _bookshop_name: cloudcannon/sections/faq
-    content:
-      heading: Our Assessment Services Include
-      items:
-        - _bookshop_name: cloudcannon/accordion
-          content:
-            heading: Assessment Design & Development
-            text:
-              _bookshop_name: cloudcannon/simple/paragraph
-              content:
-                text: >-
-                  Crafting assessments aligned with the Next Generation Science
-                  Standards (NGSS) that promote higher-order thinking and
-                  real-world application.
-          style:
-            content_width: Full
-            content_alignment: Center
-        - _bookshop_name: cloudcannon/accordion
-          content:
-            heading: Review & Validation
-            text:
-              _bookshop_name: cloudcannon/simple/paragraph
-              content:
-                text: >-
-                  Ensuring assessments are equitable, reliable, and effectively
-                  measure intended learning outcomes.
-          style:
-            content_width: Full
-            content_alignment: Center
-        - _bookshop_name: cloudcannon/accordion
-          content:
-            heading: Data Analysis & Interpretation
-            text:
-              _bookshop_name: cloudcannon/simple/paragraph
-              content:
-                text: >-
-                  Providing tools and training to help educators analyze
-                  assessment data, identify learning trends, and inform
-                  instructional decisions.
-          style:
-            content_width: Full
-            content_alignment: Center
-        - _bookshop_name: cloudcannon/accordion
-          content:
-            heading: Professional Learning
-            text:
-              _bookshop_name: cloudcannon/simple/paragraph
-              content:
-                text: >-
-                  Offering workshops and coaching to build educators’ capacity
-                  in utilizing assessment data to enhance teaching and learning.
-          style:
-            content_width: Full
-            content_alignment: Center
-    style:
-      content_alignment: Center
-      content_width: Medium
-      borders: false
-      custom_background_color: true
-      background_color: '#f5f5f5'
-  - _bookshop_name: cloudcannon/sections/custom
-    section_name: My section
-    include_background_color: true
-    background_color: '#f5f5f5'
-    include_background_image: false
-    background_image_path:
-    content_blocks:
-      _bookshop_name: cloudcannon/structural/content_blocks
-      content:
-        blocks:
-          - _bookshop_name: cloudcannon/structural/content_blocks
-            content:
-              blocks:
-                - _bookshop_name: cloudcannon/simple/headline
-                  content:
-                    text: Pay your share
-                  style:
-                    heading_level: h3
-                    text_color: Primary
-                - _bookshop_name: cloudcannon/simple/paragraph
-                  content:
-                    text: >-
-                      Interdum et malesuada fames ac ante ipsum primis in
-                      faucibus. Cras accumsan tristique purus non malesuada.
-            style:
-              flow: Vertical
-              vertical_alignment: Middle
-              custom_background_color: false
-              background_color: '#ffffff'
-          - _bookshop_name: cloudcannon/image
-            content:
-              path: /uploads/confirm.png
-              alt: Screenshot of payment success screen in Share app
-            style:
-              shadow: true
-      style:
-        flow: Horizontal
-        vertical_alignment: Middle
-        custom_background_color: false
-        background_color: '#ffffff'
-  - _bookshop_name: cloudcannon/structural/spacer
-    style:
-      height: 180
   - _bookshop_name: cloudcannon/sections/one-column
     content:
       blocks:
         - _bookshop_name: cloudcannon/simple/headline
           content:
-            text: How does share app work?
+            text: About Us
           style:
-            heading_level: h2
+            heading_level: h1
             text_color: Primary
-        - _bookshop_name: cloudcannon/structural/spacer
-          style:
-            height: 80
-        - _bookshop_name: cloudcannon/embed
-          content:
-            url: >-
-              https://player.vimeo.com/video/622005181?h=cf41e0814a&app_id=122963
     style:
       custom_background_color: false
       background_color: '#f5f5f5'
       content_alignment: Center
       content_width: Large
-  - _bookshop_name: cloudcannon/structural/spacer
-    style:
-      height: 160
-  - _bookshop_name: cloudcannon/sections/one-column
-    content:
-      blocks:
-        - _bookshop_name: cloudcannon/quote
-          content:
-            quote: >-
-              Orci varius natoque penatibus et magnis dis parturient montes,
-              nascetur ridiculus mus. Mauris sed tempus odio, vel malesuada
-              enim. Donec aliquet at lectus eget accumsan.
-            source: Quote source
-            image: /uploads/quote-source.png
-          style:
-            content_alignment: Center
-    style:
-      custom_background_color: false
-      background_color: '#f5f5f5'
-      content_alignment: Center
-      content_width: Medium
-  - _bookshop_name: cloudcannon/structural/spacer
-    style:
-      height: 160
   - _bookshop_name: cloudcannon/sections/two-columns
     content:
       left_column:
         style:
           content_alignment: Left
-          vertical_alignment: Middle
+          vertical_alignment: Top
           custom_background_color: false
-          background_color: '#f0f0f0'
+          background_color: '#f5f5f5'
         content:
           blocks:
             - _bookshop_name: cloudcannon/simple/headline
               content:
-                text: Why is Share the best cost tracking app for you?
+                text: 'Chris Lazzaro Executive Director '
               style:
-                heading_level: h3
+                heading_level: h2
                 text_color: Primary
             - _bookshop_name: cloudcannon/simple/paragraph
               content:
                 text: >-
-                  #### Categories and track expenses
-
-
-                  Morbi vel justo tempus, euismod metus eget, vehicula velit.
-                  Nunc mollis pharetra nibh, ut malesuada lectus dignissim ut.
-                  Fusce vel sodales orci.
-
-
-                  #### Manage bills and debt repayments
-
-
-                  Curabitur nunc velit, elementum ac consequat quis, condimentum
-                  eu dolor. Vivamus sodales libero nisi, eget interdum dolor
-                  efficitur fringilla.
-
-
-                  #### Know when you’ve paid your share
-
-
-                  Aenean bibendum tincidunt felis a euismod. Proin dapibus
-                  accumsan mi eu ultrices.
+                  Chris is the Executive Director and co-founder of the Science
+                  and Technology Advancement Center (STAC), dedicated to
+                  transforming STEM education through technology integration.
+                  With nearly 20 years in science education, he previously led
+                  science initiatives at New Meridian and the College Board,
+                  including AP course redesign and NGSS implementation. Chris
+                  has contributed to international assessments like TIMSS and
+                  has taught physics at both high school and college levels. He
+                  holds degrees in Earth and Planetary Sciences, Physics, and a
+                  Ph.D. in Cognitive Science. Chris lives in Santa Barbara
+                  County with his wife, daughter, and dog.
       right_column:
         style:
           content_alignment: Left
           vertical_alignment: Top
           custom_background_color: false
-          background_color: '#ffffff'
+          background_color: '#f5f5f5'
         content:
           blocks:
             - _bookshop_name: cloudcannon/image
               content:
-                path: /uploads/share-in-action.png
-                alt: Screenshot of the Share app overview page
+                path: /uploads/chris-headshot-1.jpg
+                alt: ''
               style:
                 shadow: false
-            - _bookshop_name: cloudcannon/structural/content_blocks
-              content:
-                blocks: []
-              style:
-                flow: Vertical
-                vertical_alignment: Middle
-                custom_background_color: false
-                background_color: '#ffffff'
     style:
-      gap: 160
-  - _bookshop_name: cloudcannon/structural/spacer
-    style:
-      height: 160
-  - _bookshop_name: cloudcannon/structural/spacer
-    style:
-      height: 200
-  - _bookshop_name: cloudcannon/sections/hero-cta
+      gap: 40
+  - _bookshop_name: cloudcannon/sections/two-columns
     content:
-      logo:
-        path:
-        alt:
-      blocks:
-        - _bookshop_name: cloudcannon/simple/headline
-          content:
-            text: Share the moment. Sort the bill later.
-          style:
-            heading_level: h2
-            text_color: Secondary
-        - _bookshop_name: cloudcannon/simple/button
-          content:
-            text: Download the app
-            url: /
-            open_in_new_tab: false
-          style:
-            type: Primary
-            size: Responsive
-            disabled: false
+      left_column:
+        style:
+          content_alignment: Left
+          vertical_alignment: Top
+          custom_background_color: false
+          background_color: '#f5f5f5'
+        content:
+          blocks:
+            - _bookshop_name: cloudcannon/image
+              content:
+                path: /uploads/velma-itamura-headshot.jpg
+                alt: ''
+              style:
+                shadow: false
+      right_column:
+        style:
+          content_alignment: Left
+          vertical_alignment: Top
+          custom_background_color: false
+          background_color: '#f5f5f5'
+        content:
+          blocks:
+            - _bookshop_name: cloudcannon/simple/headline
+              content:
+                text: 'Velma Itamura Operations Director '
+              style:
+                heading_level: h1
+                text_color: Primary
+            - _bookshop_name: cloudcannon/simple/paragraph
+              content:
+                text: >-
+                  Velma Itamura is a science education leader with 29+ years of
+                  experience in teaching, assessment, and curriculum
+                  development. She served as Science Strategy Manager at New
+                  Meridian and led statewide STEM efforts in Utah. Velma is the
+                  Operations Director of STAC, advancing equity and innovation
+                  through NGSS-aligned programs and AI integration. She holds a
+                  biology degree and an MBA from Western Governors University. A
+                  frequent national presenter, she also runs *Lil Ninja
+                  Explores*, where she shares nature-based science education
+                  with her followers. Velma splits her time between Lake Oswego,
+                  Oregon, and West Jordan, Utah.
     style:
-      content_width: Small
-      content_alignment: Center
-      include_background_color: false
-      background_color: '#F0F0F0'
-      include_background_image: true
-      background_image_path: /uploads/cheers.png
-      include_background_overlay: false
-      background_overlay:
-        gradient_type: Linear
-        color: rgba(0, 0, 0, 0.25)
-      vertical_alignment: Middle
-  - _bookshop_name: cloudcannon/structural/spacer
-    style:
-      height: 200
+      gap: 40
   - _bookshop_name: cloudcannon/sections/one-column
     content:
       blocks:
@@ -732,9 +598,6 @@ sections:
       background_color: '#f5f5f5'
       content_alignment: Center
       content_width: Large
-  - _bookshop_name: cloudcannon/structural/spacer
-    style:
-      height: 200
   - _bookshop_name: cloudcannon/sections/one-column
     content:
       blocks:
@@ -746,7 +609,4 @@ sections:
       background_color: '#f5f5f5'
       content_alignment: Center
       content_width: Large
-  - _bookshop_name: cloudcannon/structural/spacer
-    style:
-      height: 200
 ---
